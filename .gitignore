@@ -51,3 +51,6 @@ broadcast/
 # OS
 .DS_Store
 Thumbs.db
+
+# Docs
+../Hackathon.md
