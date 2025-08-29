@@ -1,0 +1,107 @@
+<AlephHackathon>
+  <Overview>
+    Aleph Hackathon es una competencia intensiva que impulsa el desarrollo de proyectos tecnológicos innovadores. Abierta a developers, designers, cryptographers, PMs, estudiantes y entusiastas de blockchain; es una oportunidad para hacer networking, aprender de expertos y potenciar el ecosistema startup.
+  </Overview>
+
+  <BeforeHackathon>
+    <Registration>
+      <Steps>
+        <Step>Asegúrate de que tú y tu equipo hayan completado el Application Form.</Step>
+        <Step>Recibirás un email con la aceptación y las instrucciones para participar.</Step>
+      </Steps>
+    </Registration>
+
+    <Communications>
+      <OfficialChannels>
+        <Channel type="twitter">X/Twitter (canal oficial)</Channel>
+        <Channel type="telegram" access="private">Grupo privado (ver email de aprobación)</Channel>
+        <Channel type="email">hackathon@crecimiento.build</Channel>
+      </OfficialChannels>
+    </Communications>
+
+    <FindTeam>
+      <Telegram>
+        <Topic>Team formation</Topic>
+        <Action>Preséntate y comparte tus ideas en el hilo correspondiente.</Action>
+      </Telegram>
+      <CherryBuilders>
+        <Action>Crea tu perfil y haz “swipe” con filtros según lo que buscas.</Action>
+        <AfterMatch>Cuando haya match, continúa en la sección “Chats”.</AfterMatch>
+      </CherryBuilders>
+    </FindTeam>
+  </BeforeHackathon>
+
+  <DuringHackathon>
+    <Rules>
+      <Rule>Se puede planear antes, pero TODO el código debe escribirse durante el hackathon.</Rule>
+      <Rule>Commits solo entre el inicio oficial y la fecha límite de envío.</Rule>
+      <Rule>Decisiones de jueces son finales para premios.</Rule>
+      <Rule>Tamaño de equipo: 1 a 4 miembros.</Rule>
+      <Rule>Prohibido usar código de otros equipos.</Rule>
+      <Rule>Romper Reglas o el Code of Conduct implica exclusión.</Rule>
+    </Rules>
+
+    <MinimumSubmission>
+      <Requirement>Demo en video (corto). Sugerencia: sigue la guía para un “killer pitch”.</Requirement>
+      <Requirement>Enlace al código open-source (startups pueden aplicar con feature nueva, pero el code debe ser open-source).</Requirement>
+      <Requirement>README recomendado con info del proyecto.</Requirement>
+      <Requirement>Seleccionar en DoraHacks las Tracks/Bounties a las que aplicas y explicarlas en tu submission.</Requirement>
+      <Requirement>Si desplegaste contratos, incluye las direcciones.</Requirement>
+    </MinimumSubmission>
+
+    <HowToSubmit platform="DoraHacks" day="domingo">
+      <Prereq>Todos en el equipo deben tener cuenta en DoraHacks.</Prereq>
+      <Steps>
+        <Step>Ingresa a Aleph '25 en DoraHacks y crea un nuevo BUIDL.</Step>
+        <Step>Completa Name, Description y toda la info del proyecto.</Step>
+        <Step>Añade a tus team members (emails) y verifica que estén registrados y logueados.</Step>
+        <Step>Agrega el link del repo y el demo.</Step>
+        <Step>Responde preguntas adicionales.</Step>
+        <Step>Haz Submit y verifica tu BUIDL en Profile &gt; BUIDL.</Step>
+        <Step>Entra a Bounties y selecciona las que te interesan (puedes varias).</Step>
+        <Step>Si necesitas cambios: Profile &gt; BUIDL &gt; Edit.</Step>
+      </Steps>
+      <BountiesURL>https://dashboard.dorahacks.io/hackathon/aleph25/bounties</BountiesURL>
+    </HowToSubmit>
+
+    <Mentors>
+      <Availability>
+        <InPerson>En Aleph Hub y en los capítulos locales.</InPerson>
+        <Online>En el grupo de Telegram (canales dedicados por sponsor).</Online>
+        <Directory>Directorio de ~70 mentores (en el Hacker’s Manual).</Directory>
+      </Availability>
+      <Note>No hay pregunta demasiado pequeña o grande: pide ayuda.</Note>
+    </Mentors>
+  </DuringHackathon>
+
+  <ChallengesAndIdeas>
+    <Mission>LATAM lidera la revolución blockchain: demostrar talento, colaborar y construir.</Mission>
+    <Approach>Construye lo que te excite: empuja fronteras, experimenta con frontier tech, con apoyo de mentores y un gran prize pool.</Approach>
+    <Tracks>
+      <Track name="DeFi">Reimagina dinero: pagos, lending, borrowing, trading más allá de bancos.</Track>
+      <Track name="AI_vibe_coding">Explora creatividad asistida por IA; no necesitas skills técnicos profundos.</Track>
+      <Track name="Privacy">Herramientas para proteger datos y libertad.</Track>
+      <Track name="Interoperability">Que cadenas, apps y assets hablen el mismo idioma.</Track>
+      <Track name="ConsumerApps_RWA">Apps blockchain para problemas reales (enfoque en usabilidad y adopción masiva).</Track>
+      <Track name="PublicGood">Infra y herramientas open-source para beneficio colectivo.</Track>
+    </Tracks>
+  </ChallengesAndIdeas>
+
+  <Judging>
+    <Timeline timezone="Argentina time">
+      <SubmissionsDue day="Sunday 31st" time="10:00"/>
+      <JudgingWindow day="Sunday 31st" start="11:00" end="14:00"/>
+      <ClosingCeremony day="Sunday" time="18:00" streamFrom="Aleph Hub"/>
+    </Timeline>
+    <Process mode="async" language="English">Envío de video demo de 3 minutos requerido.</Process>
+    <Payouts>Pagos de premios entre 30–60 días post-anuncio, gestionados por sponsors (no por Crecimiento).</Payouts>
+    <Criteria scale="1-5">
+      <Criterion name="Technicality">Nivel técnico y resolución ingenieril.</Criterion>
+      <Criterion name="Originality">Innovación y enfoque único.</Criterion>
+      <Criterion name="UI_UX_DX">Experiencia de usuario y developer.</Criterion>
+      <Criterion name="Practicality">Viabilidad y aplicaciones reales.</Criterion>
+      <Criterion name="Presentation">Claridad del pitch, demo y materiales.</Criterion>
+      <Note>Algunos sponsors pueden tener criterios propios (ver tracks de sponsor).</Note>
+    </Criteria>
+  </Judging>
+</AlephHackathon>

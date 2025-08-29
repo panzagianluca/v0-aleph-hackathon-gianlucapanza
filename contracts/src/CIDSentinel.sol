@@ -29,7 +29,7 @@ contract CIDSentinel {
     mapping(string => PackageRef) public packages;
     mapping(uint256 => SLO) public slos;
     mapping(address => bool) public authorizedVerifiers;
-    
+
     uint256 public sloCounter;
     address public owner;
 
@@ -88,7 +88,7 @@ contract CIDSentinel {
         string memory description
     ) external onlyOwner returns (uint256) {
         require(target <= 10000, "Target cannot exceed 100%");
-        
+
         uint256 sloId = sloCounter++;
         slos[sloId] = SLO({
             name: name,
